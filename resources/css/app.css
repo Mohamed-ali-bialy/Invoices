@@ -1,0 +1,58 @@
+a {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Set the text color */
+    font-weight: bold; /* Set the font weight */
+    
+    
+    /* Set the width and height */
+    /* Add padding for spacing inside the element */
+    padding: 10px;
+    
+    /* Set other styles as needed */
+}
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #0056b3; /* Change color on hover */
+}
+
+
+svg {
+    width: 50px; /* Set the width of the SVG element */
+    height: 50px; /* Set the height of the SVG element */
+    fill: #1a2531; /* Set the fill color of the arrows */
+
+}
+
+/* Styles for arrow paths within the SVG */
+svg path {
+    stroke: #4f678b; /* Set the stroke color of the arrows */
+    stroke-width: 0; /* Set the stroke width of the arrows */
+}
+
+/* Styles for arrow:hover state */
+svg:hover {
+    fill: #0056b3; /* Change fill color on hover */
+}
+
+svg path:hover {
+    stroke: #0056b3; /* Change stroke color on hover */
+}
+
+.pagination{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.pagination-btn{
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    opacity: 90%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+.mypagination-inc-btn{
+    width: 50px;
+    height: 50px;
+}
