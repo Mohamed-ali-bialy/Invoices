@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Models\Product;
 class HomeController extends Controller
 {
     /**
@@ -23,6 +23,9 @@ class HomeController extends Controller
      */
     public function index()
     {
+        //$product = Product::find(1);
+        //$manufacturer = $product->manufacturer;
+        //return $manufacturer->name;
         return view('home');
     }
 }
